@@ -13,9 +13,5 @@ namespace MiprimeraApp
         {
             InitializeComponent();
         }
-        async void btn_uno(object sender, EventArgs args)
-        {
-            await Navigation.PushModalAsync(new Navegacion());
-        }
     }
 }

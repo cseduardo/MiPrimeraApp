@@ -2,14 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MiprimeraApp"
-             x:Class="MiprimeraApp.MainPage">
-
-    <StackLayout>
-        <Label Text="Welcome Carolina Muñoz Santiago!" 
+             x:Class="MiprimeraApp.MainPage"
+             Padding="20">
+    
+    <Label Text="Jose Eduardo Campos Sanchez 12090073" 
            VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-        <Button Text="Presioname" Clicked="btn_uno"></Button>
-    </StackLayout>
-	
-
+           HorizontalOptions="Center"
+           TextColor="Chocolate"
+           FontSize="Medium"/>
+    
 </ContentPage>
